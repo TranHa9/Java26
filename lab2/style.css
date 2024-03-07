@@ -1,0 +1,29 @@
+.sub-title {
+    color: green;
+    font-size: 50px;
+    background-color: aquamarine;
+    border: solid;
+    width: 300px;
+    height: 200px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 5px black;
+}
+
+p {
+    color: red;
+    background-color: aqua;
+    /* text-align: center; */
+    text-align: justify;
+    /* text-align-last: right; */
+    /* direction: rtl; */
+    /* unicode-bidi: bidi-override; */
+    text-indent: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
