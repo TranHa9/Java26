@@ -1,0 +1,82 @@
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.sub-title {
+    color: #333;
+}
+
+.sub-title h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.content {
+    flex: 5;
+    margin-right: 30px;
+}
+
+.sukien {
+    flex: 2;
+    text-align: center;
+    background-color: white;
+    margin-right: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.content div {
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.content h2 {
+    color: rgb(24, 101, 123);
+    margin-bottom: -22px;
+    padding-top: 20px;
+}
+
+.content h3 {
+    font-size: 20px;
+    color: rgb(24, 101, 123);
+}
+
+.custom-list {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-list li {
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.footer div {
+    flex: 1;
+    text-align: center;
+}
