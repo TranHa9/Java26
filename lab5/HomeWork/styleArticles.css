@@ -186,24 +186,31 @@ a {
 
 /* words */
 .section-header {
-    margin-bottom: 29px;
-    margin-top: 96px;
+    margin-bottom: 121px;
+    margin-top: 140px;
 }
 
 
 .section-heading {
-    font-size: 32px;
-    letter-spacing: -0.5px;
-    line-height: 48px;
+    font-size: 140px;
+    letter-spacing: -3px;
+    line-height: 142.8px;
     color: #1f1f1f;
+    margin-bottom: 16px;
+}
+
+.section-heading-description {
+    color: #a8a8a8;
+    font-size: 24px;
+    line-height: 37.2px;
+    letter-spacing: -0.25px;
 }
 
 .section-content {
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 55px;
 }
 
-.project-card {}
 
 .project-thumbnail {
     border-radius: 24px;
@@ -213,7 +220,7 @@ a {
 }
 
 .project-thumbnail img {
-    width: 574px;
+    width: 582px;
     height: 499px;
     object-fit: cover;
     cursor: pointer;

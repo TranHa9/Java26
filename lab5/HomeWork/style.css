@@ -154,95 +154,89 @@ a {
 }
 
 /* main */
-.section--hero {
-    margin-top: 140px;
-    margin-bottom: 120px;
+.section--title {
+    margin-top: 80px;
+    margin-bottom: 56px;
 }
 
-.hero-content {
-    gap: 48px;
+.title-content {
+    gap: 64px;
 }
 
-.hero-imager {
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 50%;
-    overflow: hidden;
+.title-sub {
+    gap: 24px;
+    width: 873.6px;
 }
 
-.hero-title {
-    font-size: 140px;
-    letter-spacing: -3px;
-    line-height: 142.8px;
+.title {
+    font-size: 72px;
+    letter-spacing: -1px;
+    line-height: 79.2px;
     color: rgb(31, 31, 31);
 }
 
-.hero-description {
-    font-size: 36px;
-    color: #a8a8a8;
-    line-height: 45px;
-}
 
-/* words */
-.section-header {
-    margin-bottom: 29px;
-    margin-top: 96px;
-}
-
-
-.section-heading {
-    font-size: 32px;
-    letter-spacing: -0.5px;
-    line-height: 48px;
-    color: #1f1f1f;
-}
-
-.section-content {
-    flex-wrap: wrap;
-    gap: 70px;
-}
-
-.project-card {}
-
-.project-thumbnail {
-    border-radius: 24px;
-    overflow: hidden;
-    margin-bottom: 37px;
-    cursor: pointer;
-}
-
-.project-thumbnail img {
-    width: 574px;
-    height: 499px;
-    object-fit: cover;
-    cursor: pointer;
-}
-
-.project-time {
-    display: inline-block;
-    font-size: 16px;
-    letter-spacing: -0.25px;
-    line-height: 24px;
-    color: rgb(168, 168, 168);
-    cursor: pointer;
-}
-
-.project-title {
-    letter-spacing: -0.5px;
-    font-size: 24px;
-    line-height: 36px;
-    color: rgb(31, 31, 31);
-    cursor: pointer;
-}
-
-.project-description {
-    letter-spacing: -0.25px;
+.title-description {
     font-size: 20px;
-    line-height: 31px;
     color: rgb(168, 168, 168);
-    cursor: pointer;
+    line-height: 31px;
+    letter-spacing: -0.25px;
 }
+
+.title-button {
+    text-align: center;
+    padding-right: 11px;
+}
+
+.button {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    height: 62px;
+    border-radius: 4px;
+    background-color: rgb(104, 99, 253);
+    padding: 16px 32px;
+    color: white;
+    width: 184.062px;
+}
+
+/* image */
+.image-content {
+    margin-bottom: 56px;
+}
+
+.image-content img {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* detail */
+.detail-content {
+    gap: 24px;
+}
+
+.detail {
+    gap: 20px;
+}
+
+.detail-title {
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    text-align: left;
+    color: rgb(31, 31, 31);
+}
+
+.detail-desctription {
+    font-size: 20px;
+    letter-spacing: -0.25px;
+    line-height: 31px;
+    color: rgb(31, 31, 31);
+}
+
 
 /* footer */
 .footer {

@@ -186,62 +186,80 @@ a {
 
 /* words */
 .section-header {
-    margin-bottom: 29px;
-    margin-top: 96px;
+    margin-bottom: 133px;
+    margin-top: 140px;
 }
 
 
 .section-heading {
-    font-size: 32px;
-    letter-spacing: -0.5px;
-    line-height: 48px;
+    font-size: 140px;
+    letter-spacing: -3px;
+    line-height: 142.8px;
     color: #1f1f1f;
+    margin-bottom: 16px;
 }
 
-.section-content {
-    flex-wrap: wrap;
-    gap: 70px;
-}
-
-.project-card {}
-
-.project-thumbnail {
-    border-radius: 24px;
-    overflow: hidden;
-    margin-bottom: 37px;
-    cursor: pointer;
-}
-
-.project-thumbnail img {
-    width: 574px;
-    height: 499px;
-    object-fit: cover;
-    cursor: pointer;
-}
-
-.project-time {
-    display: inline-block;
-    font-size: 16px;
-    letter-spacing: -0.25px;
-    line-height: 24px;
-    color: rgb(168, 168, 168);
-    cursor: pointer;
-}
-
-.project-title {
-    letter-spacing: -0.5px;
+.section-heading-description {
+    color: #a8a8a8;
     font-size: 24px;
-    line-height: 36px;
-    color: rgb(31, 31, 31);
-    cursor: pointer;
+    line-height: 37.2px;
+    letter-spacing: -0.25px;
 }
 
-.project-description {
-    letter-spacing: -0.25px;
-    font-size: 20px;
-    line-height: 31px;
+/* form */
+/* .form-group-input {
+    gap: 24px;
+} */
+
+.form-group {
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.form-input input {
+    width: 588px;
+    height: 76px;
+}
+
+.form-text textarea {
+    width: 1200px;
+    height: 260px;
+}
+
+.form-btn button {
+    width: 1200px;
+    height: 76px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+::placeholder {
     color: rgb(168, 168, 168);
-    cursor: pointer;
+}
+
+.input-sub {
+    font-size: 20px;
+    line-height: 1.4em;
+    border-radius: 6px;
+    border: none;
+    box-shadow: inset 0 0 0 1px transparent;
+    background-color: rgb(247, 247, 247);
+    color: rgb(168, 168, 168);
+    padding: 24px;
+}
+
+.form-btn-button {
+    background-color: rgb(104, 99, 253);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: normal;
+    padding: 24px;
+    border: none;
+    border-radius: 6px;
 }
 
 /* footer */
