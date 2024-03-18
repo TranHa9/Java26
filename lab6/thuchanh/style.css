@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+
+.card {
+    width: 320px;
+    position: relative;
+    background-color: red;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    color: white;
+    height: 100px;
+    background-image: linear-gradient(to top, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.0));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.card-description {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.card-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    background-color: red;
+    padding: 9px;
+    color: white;
+    border-radius: 8px;
+}
