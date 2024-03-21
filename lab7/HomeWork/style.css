@@ -111,6 +111,10 @@ body {
     color: rgb(33, 33, 33);
 }
 
+.seaech-input>input:focus {
+    outline: none;
+}
+
 .search-btn>button {
     background-color: rgb(245, 114, 36);
     width: 45px;
